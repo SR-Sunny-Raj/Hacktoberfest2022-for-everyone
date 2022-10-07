@@ -1,5 +1,5 @@
-#soldier and bananas 
-
+//soldier and bananas 
+//Problem Link -: https://codeforces.com/contest/546/problem/A
 #include<bits/stdc++.h>
  
 using namespace std;

@@ -16,7 +16,7 @@ vector<int> NGE(vector<int> &v) {
     return nge;
 }
 
-// Privious Greater Element
+// Previous Greater Element
 vector<int> PGE(vector<int> &v) {
 	int n = v.size();
     vector<int> pge(n, -1);

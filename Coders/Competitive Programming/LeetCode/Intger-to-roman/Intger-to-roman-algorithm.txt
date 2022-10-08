@@ -1,0 +1,3 @@
+S1: Create 4 arrays/vectors for one's, ten's, hundred's, thousand's places
+S2: We start from thousand's place and keep adding to the return statement.
+S3: We keep repeating S2 till we reach one's place.

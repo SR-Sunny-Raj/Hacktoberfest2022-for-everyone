@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Google Search Right Panel</title>
+    <link href="styles.css" rel="stylesheet">
+</head>
+
+<body>
+    <div class="leftPanel">
+        <img src="assets/dogecoin.jpg" width="300" height="250" id="imgsrc" onclick="showPanel()">
+        <img src="assets/img1.jpeg" width="250px" height="200px" id="imgsrc1" style="visibility: hidden;">
+        <button id="close" onclick="hidePanel()">Close Right sidebar</button>
+    </div>
+    <div id="panel" style="visibility: hidden;">
+        <div class="container">
+            <img src="assets/dogecoin.jpg" alt="logo" width="auto" height="350" id="img">
+            <div class="host">
+                <img src="assets/hostlogo.jpeg" alt="host">
+                <a href="https://www.coindesk.com/price/dogecoin">CoinDesk</a>
+                <button class="button">Visit</button>
+                <div class="description">
+                    <a href="https://www.coindesk.com/price/dogecoin">Dogecoin Price | DOGE Price Index and Live Chart -
+                        CoinDesk</a>
+                </div>
+            </div>
+            <div class="copyright">
+                Images may be subject to copyright. <a href="https://www.google.com/">Learn More</a>
+            </div>
+            <div class="partition"></div>
+            <div class="moreImages">
+                Related Images
+                <a
+                    href="https://www.google.com/search?q=dogecoin&tbm=isch&tbs=rimg:CUvrUzHk665oYbrRf1SWZrqNsgIGCgIIABAA&hl=en&sa=X&ved=0CAIQrnZqFwoTCLiIs6fKv_ICFQAAAAAdAAAAABAP&biw=822&bih=687">
+                    See More</a>
+
+            </div>
+
+            <div class="display">
+                <a>
+                    <img src="assets/img1.jpeg" onclick="showImage()"> <img src="assets/img2.jpeg">
+                    <a href="https://www.forbes.com/advisor/investing/what-is-dogecoin/">
+                        What is Dogecoin?
+                        <p>forbes.com</p>
+                    </a>
+                    <span>
+                        What is Dogecoin?
+                    </span>
+                </a>
+
+                <a>
+                    <img src="assets/img2.jpeg">
+                    <a href="..">
+                        What is Dogecoin?
+                        <p>forbes.com</p>
+                    </a>
+                </a>
+            </div>
+        </div>
+    </div>
+    </div>
+    </div>
+
+    <script src="panel.js"></script>
+</body>
+
+</html>

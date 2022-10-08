@@ -1,0 +1,5 @@
+S1: We perform binary search. We partition the elements in such a way that LHS will contain elements till the median element and rest in the RHS when they are merged. Binary search should happen on the minimum size array
+S2: First median position will be at n1/2. Take l=0,h=size of array on consideration. Find partition.
+S3: Check if LHS has total elements equal to median. If not, we get remaining elements from second array.
+S4: Partition is valid when l1<=r2 and l2<=r1. If valid, return max(l1,l2)(odd elements) else return (max(l1,l2)+min(r1,r2))/2(even elements).
+S5: If partition is not valid - If  l1>r2, move left and if l2>r2, move right.

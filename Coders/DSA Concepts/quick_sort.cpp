@@ -1,4 +1,4 @@
-#include <iostream>
+#include <bits/stdc++.h>
 using namespace std;
 
 int partition(int *arr,int s,int e){
@@ -42,10 +42,14 @@ void quickSort(int *arr,int s,int e){
 }
 
 int main(){
-    int arr[5]={3,1,4,5,2};
-    quickSort(arr,0,4);
+    int n;
+    int arr[1000];
+    cin>>n;
+    for(int i=0;i<n;i++)
+        cin>>arr[i];
+    quickSort(arr,0,n-1);
 
-    for(int i=0;i<5;i++){
+    for(int i=0;i<n;i++){
         cout<<arr[i]<<" ";
     }
 

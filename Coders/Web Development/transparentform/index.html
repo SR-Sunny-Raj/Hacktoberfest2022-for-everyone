@@ -1,0 +1,67 @@
+<html>
+<head>
+<meta charset="utf-8">
+<title> transparent login form from UI</title>
+<link rel="stylesheet" href="style.css">
+<script src="https://kit.fontawesome.com/a076d05399.js"></script>
+</head>
+<body>			
+<div class="bg-img">
+	<div class="content">
+	<header>Login Form</header>
+	<form action="C:\Users\pp\Desktop\WEB DEVELOPMENT\ALL PROJECTS\website\project 1\navigation bar\website.html">
+	<div class="field">
+	<span class="fa fa-user"></span>
+	<input type="text"  required placeholder="Email or Phone">
+	</div>
+	
+	<div class="field space">
+	<span class="fa fa-lock"></span>
+	<input type="password" class="password" required placeholder="Password">
+	<span class="show">SHOW</span>
+	</div>
+	
+	<div class="pass">
+	<a href="#!">Forgot Password?</a>
+	</div>
+	
+	<div class="field ">
+	<input type="submit" value="LOGIN">
+	</div>
+	
+	<div class="login">Or login with</div>
+	
+	<div class="link">
+		<div class="facebook">
+			<i class="fab fa-facebook-f"><span>Facebook</span></i>
+		</div>
+		<div class="instagram">
+			<i class="fab fa-instagram"><span>Instagram</span></i>
+		</div>
+	</div>
+	<div class="signup">Don't have account?
+		<a href="#!">Signup Now</a>
+	</div>
+
+	</form>
+	</div>
+</div>
+
+<script>
+	const pass_field = document.querySelector(' .password ');
+	const show_btn = document.querySelector(' .show');
+	show_btn.addEventListener('click' , function( ){
+		if(pass_field.type =="password"){
+			pass_field.type ="text";
+			show_btn.style.color = "#3498db";
+			show_btn.textContent ="HIDE";
+		}else{
+			pass_field.type ="password";
+			show_btn.style.color = "#222";
+			show_btn.textContent ="SHOW";
+		}
+	});
+</script>
+
+</body>
+</html>

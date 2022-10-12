@@ -1,0 +1,66 @@
+body {
+  background-color: #222831;
+  text-align: center;
+}
+
+.heading {
+  color: #EEEEEE;
+  font-family: 'Nosifer', cursive;
+  padding-top: 20px;
+  font-size: 5rem;
+  text-align: center;
+  margin-bottom: 0;
+}
+
+.part {
+  padding-top: 40px;
+  opacity: 0.5;
+  position: absolute;
+  margin-left: auto;
+  margin-right: auto;
+  left: 0;
+  right: 0;
+  width: 35rem;
+  text-align: center;
+}
+
+.key {
+  opacity: 0.5;
+}
+
+.key-icons {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.opaque {
+  opacity: 1;
+}
+
+.legend {
+  color: #EEEEEE;
+  font-family: 'Luckiest Guy', cursive;
+  font-size: 2rem;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+.row {
+  margin: 0;
+}
+
+.drum-set {
+  position: relative;
+}
+
+@media (min-width: 0) and (max-width: 768px) {
+  .key-icons {
+    bottom: -200px;
+  }
+}

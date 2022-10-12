@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html>
+ 
+<head>
+    <title>
+        Create a Search Bar using HTML and CSS
+    </title>
+     
+    <meta name="viewport"
+        content="width=device-width, initial-scale=1">
+     
+    <link rel="stylesheet" href=
+"https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+ 
+    <style>
+         
+        /* styling navlist */
+        #navlist {
+            background-color: #0074D9;
+            position: absolute;
+            width: 100%;
+        }
+         
+        /* styling navlist anchor element */
+        #navlist a {
+            float:left;
+            display: block;
+            color: #f2f2f2;
+            text-align: center;
+            padding: 12px;
+            text-decoration: none;
+            font-size: 15px;
+        }
+        .navlist-right{
+            float:right;
+        }
+ 
+        /* hover effect of navlist anchor element */
+        #navlist a:hover {
+            background-color: #ddd;
+            color: black;
+        }
+         
+        /* styling search bar */
+        .search input[type=text]{
+            width:300px;
+            height:25px;
+            border-radius:25px;
+            border: none;
+ 
+        }
+         
+        .search{
+            float:right;
+            margin:7px;
+ 
+        }
+         
+        .search button{
+            background-color: #0074D9;
+            color: #f2f2f2;
+            float: right;
+            padding: 5px 10px;
+            margin-right: 16px;
+            font-size: 12px;
+            border: none;
+            cursor: pointer;
+        }
+    </style>
+</head>
+ 
+<body>
+     
+    <!-- Navbar items -->
+    <div id="navlist">
+        <a href="#">Home</a>
+        <a href="#">Our Products</a>
+        <a href="#">Careers</a>
+        <a href="#">About Us</a>
+        <a href="#">Contact Us</a>
+         
+        <!-- search bar right align -->
+        <div class="search">
+             
+            <form action="#">
+                <input type="text"
+                    placeholder=" Search Courses"
+                    name="search">
+                <button>
+                    <i class="fa fa-search"
+                        style="font-size: 18px;">
+                    </i>
+                </button>
+            </form>
+        </div>
+    </div>
+     
+    <!-- logo with tag -->
+    <div class="content">
+        <h1 style="color:green; padding-top:40px;">
+            Google it by Hitesh
+        </h1>
+         
+        <b>
+            A Computer Science
+            Portal For You 
+        </b>
+         
+         
+ 
+<p>
+            How many times were you frustrated while
+            looking out for a good collection of
+            programming/algorithm/interview questions?
+            What did you expect and what did you get?
+            This portal has been created to provide
+            well written, well thought and well
+            explained solutions for selected questions.
+        </p>
+ 
+ 
+    </div>
+</body>
+ 
+</html>      

@@ -10,12 +10,12 @@ void Bubble_Sort(int arr[], int n)
 				swap(arr[j], arr[j + 1]);
 }
 
-void printArray(int arr[], int size)
+void printArray(int arr1[], int size)
 {
 	int i;
 
 	for (i = 0; i < size; i++)
-		cout << arr[i] << " ";
+		cout << arr1[i] << " ";
 	
     cout << endl;
 }

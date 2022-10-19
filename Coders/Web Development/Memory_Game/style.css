@@ -1,0 +1,56 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Raleway", sans-serif;
+  }
+  
+  body {
+    font-family: serif;
+    color: white;
+    background-image: url('images/background.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+  }
+  
+  h3 {
+    text-align: center;
+    margin-top: 15px;
+    margin: 10px;
+    padding: 10px;
+  }
+  
+  .container {
+    position: absolute;
+    transform: translate(-50%, -50%);
+    top: 50%;
+    left: 50%;
+  
+  }
+  
+  .grid {
+    width: 70vmin;
+    height: 70vmin;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2vmin;
+  }
+  
+  
+  .timer {
+    text-align: center;
+    margin: 0 auto;
+    font-style: 23px;
+    background: #008f39;
+    width: 8vh;
+    height: 8vh;
+    line-height: 8vh;
+    border-radius: 4vh;
+  }
+  
+  .card {
+    margin: 5px;
+    border: 1px solid red;
+  }
+  

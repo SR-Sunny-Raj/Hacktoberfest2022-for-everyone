@@ -84,7 +84,7 @@ For your PR to count it must be:
 - If you want to make your contribution in Web Development Domain / AI/ML / Competitive Programming / DSA Concepts / Android Development then you should make your contribution in the Coders Folder.
 - If you are a non-coder then need not to worry as you can still contribute by making your contribution in Technical Writing / Content Writing / Interview Experience.
 - Follow file naming convention for all your pull requests.
-- While adding any content it should be inside its appropiate directory
+- While adding any content it should be inside its appropiate directory.
 - if there is any problem with inaccurate solution create an issue!
 
 ## file naming convention

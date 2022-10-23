@@ -26,22 +26,14 @@ void push(struct Node** head_ref, int new_data)
 // else returns false.
 bool detectLoop(struct Node* h)
 {
-    unordered_set<Node*> s;
-    while (h != NULL) {
-        // If this node is already present
-        // in hashmap it means there is a cycle
-        // (Because you we encountering the
-        // node for the second time).
-        if (s.find(h) != s.end())
+    struct Node *fast = head, *slow = head;
+    while (fast && fast->next)
+    {
+        fast = fast->next->next;
+        slow = slow->next;
+        if (slow == fast)
             return true;
- 
-        // If we are seeing the node for
-        // the first time, insert it in hash
-        s.insert(h);
- 
-        h = h->next;
     }
- 
     return false;
 }
  

@@ -2,27 +2,30 @@
 using namespace std;
 
 const int N = 1e5+10;
-vector<int> g[N];	// To store the edges of the graph
-bool vis[N];		// To check if any node is visited or not
-int level[N];		// To store the level of each node
-
 // BFS Implementation
 
-void bfs(int src) {
+vector<int> bfsOfGraph(int V, vector<int> adj[])
+{
+	vector<int> bfs;
+	vector<int> vis(V, 0);
+	vis[0] = 1;
 	queue<int> q;
-	q.push(src);
-	vis[src] = true;
-	while(!q.empty()) {
-		int vertex = q.front();
+	q.push(0);
+	while (!q.empty())
+	{
+		int node = q.front();
 		q.pop();
-		for(auto &child: g[vertex]) {
-			if(vis[child]) continue;
-			q.push(child);
-			cout << child << endl;
-			vis[child] = true;
-			level[child] = level[vertex] + 1;
+		bfs.push_back(node);
+		for (auto it : adj[node])
+		{
+			if (!vis[it])
+			{
+				vis[it] = 1;
+				q.push(it);
+			}
 		}
 	}
+	return bfs;
 }
 
 int main() {
@@ -32,5 +35,7 @@ int main() {
 		g[v1].push_back(v2);
 		g[v2].push_back(v1);
 	}
-	bfs(1);
+	vector<int> v = bfs(n, g);
+	for(int i=0; i<n; i++)
+		cout << v[i] << " ";
 }

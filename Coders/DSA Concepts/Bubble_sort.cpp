@@ -26,11 +26,11 @@ int main()
     
     cout<<"Enter the size of Array: ";
     cin>>N;
-
-    int arr[N];
+//dynamically allocating an array 
+    int *arr=new int[N];
     
     cout<<"Enter the elements in Array"<<endl;
-    for(i = 0; i < size; i++)
+    for(int i = 0; i < N; i++)
         cin>>arr[i];
 
 	Bubble_Sort(arr, N);

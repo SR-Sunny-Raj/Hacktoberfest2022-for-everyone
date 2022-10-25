@@ -1,0 +1,29 @@
+The WDC interview consisted of 5 rounds in total. It came to our campus for Firmware engineer profile :-
+
+(1.) Online Assessment :- The OA was organised on HirePro platform and it consisted of about 45 questions to be answered in 50 minutes. The questions were related to C/C++/Java/Python outputs and 
+                                             theoretical based questions. The main questions and their sole focus on pointer related questions which were medium to hard. I was able to solve 40-41 questions and I successfully 
+                                             cleared this round. I guess more than 200 appeared for the test and around 14 were shortlisted.
+
+(2.) 1st online technical interview :- I was first asked to introduce myself in short which I did so. Then he started asking me questions related to data structures and algorithms. The round was for about 
+                                                               45-50 minutes. Both my technical rounds were a bit long. They were throughly grilling me LOL. The questions were as follows:-
+                                                               (i.) https://www.geeksforgeeks.org/check-characters-given-string-can-rearranged-form-palindrome/
+                                                               (ii.) https://www.geeksforgeeks.org/program-to-find-lcm-of-two-numbers/  [without using the concept that LCM=(product of 2 numbers)/hcf]
+                                                               (iii.) https://www.sanfoundry.com/c-program-largest-two-numbers-given-array/
+                                                               (iv) 2 C output based questions
+                                                               I answered all questions and around 5 people moved to next round.
+
+(3.) 2nd online technical interview :- This was again an eleimination round and again the main focus was on dsa and pointer based questions. This round was for an hour.
+                                                              (i) https://www.geeksforgeeks.org/detect-loop-in-a-linked-list/
+                                                              (ii) https://leetcode.com/problems/reorder-list/
+                                                              (iii) 2 to 3 output based questions on c 
+                                                              (iv) 2 to 3 pointer based questions 
+                                                              (v) MOSFET characteristics and functions
+                                                              (vi) I-V characteristics of Enhanced type MOSFET.
+                                                             3 people moved to managerial round and I am happy to share that I was also one.
+
+(4.) Managerial round :- To my surprise this round instead of being managerial was solely focussed on advance pointer concept. This round was interviewed by project manager itself. He asked 3 questions and
+                                           I answered all. I don't rember all questions but one was given a string "AAAABBBBCCCCDDDD" split it into four parts as "AAAA","BBBB","CCCC" and "DDDD" using pointers. To my surprsise
+                                           I didn't move to the HR round. The whole interview was a bit messy as results were being declared after asking them for results else they were quiet. But one girl who was selected here 
+                                           results were declared within 5 minutes of ending her interview. Everyone was surprised as to why HR was favouring her from beginning. 
+
+                                             

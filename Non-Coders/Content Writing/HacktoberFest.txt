@@ -1,0 +1,8 @@
+A Festive and a Hacking Evening Contributors, 
+This October it's not just sitting idle and looking towards winning the IPL
+Instead, we are back with a great Banger this year.... The Hacktoberfest 2022
+A great opportunity for the open source contributers willing enthusiastically towards making contributions in various open source projects.
+Do come and register for this month long event with exciting goodies awaiting for you all...
+Just make 4 PR's and we are good to go...
+
+

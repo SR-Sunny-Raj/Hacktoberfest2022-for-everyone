@@ -1,0 +1,22 @@
+#include <iostream>
+using namespace std;
+
+int main() {
+	int t;
+	cin>>t;
+	while(t--)
+	{
+	    int s,a,b,c;
+	    cin>>s>>a>>b>>c;
+	    float k=s;	    
+	    k=k+(k*c)/100;
+	    s=int(k);
+	    if(s>=a && s<=b)
+	    {
+	        cout<<"YES"<<endl;
+	    }
+	    else
+	    cout<<"NO"<<endl;
+	}
+	return 0;
+}

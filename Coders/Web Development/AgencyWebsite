@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Estates</title>
+    <link rel="stylesheet" href="style/style.css">
+</head>
+
+<body>
+    <nav class="navbar">
+        <div class="logo">
+            <img src="images/Group 17997.png" alt="">
+        </div>
+        <!-- <div class="head">
+            <ul>
+                <li><a href=""></a></li>
+                <li><a href=""></a></li>
+                <li><a href=""></a></li>
+                <li><a href=""></a></li>
+            </ul>
+        </div> -->
+    </nav>
+
+    <!-- ===========second section============= -->
+    <div class="home-section">
+        <div class="home-header">
+            <h2>The ultimate luxury experience
+            </h2>
+            <h2>LUXURY APARTMENTS</h2>
+            <hr class="line">
+            <div class="para">
+                <p class="first-para">
+                    Lorem Ipsum Is A Dummy Or Placeholder Text. It's Often Used In
+                </p>
+                <p class="second-para">Laying Out Print, Infographics, Or Web Design.</p>
+            </div>
+        </div>
+        <div class="form-gets">
+            <p>Let's Get In Touch To Know More</p>
+            <form class="frm">
+                <input type="text" placeholder="Your Name">
+                <input type="text" placeholder="Mobile no">
+                <input type="email" placeholder="Email ID">
+                <button class="btn">Submit</button>
+            </form>
+        </div>
+    </div>
+
+    <!-- ==============second-section========= -->
+
+    <div class="overview">
+        <h2>TRIUMPH ESTATE OVERVIEW</h2>
+        <div class="other-view">
+            <div class="head-para">
+                <h3>Key highlights of Project</h3>
+                <div class="ponda">
+                    <ul>
+                        <p>
+                            <li>Residential Plots Configuration</li>
+                        </p>
+                        <p>
+                            <li>20 acres of development</li>
+                        </p>
+                        <p>
+                            <li>Average price - ₹1.75 Lacs/sq.yd Avg. Price</li>
+                        </p>
+                        <p>
+                            <li>Total plots 320</li>
+                        </p>
+                        <p>
+                            <li>Phase one - 165plots</li>
+                        </p>
+                        <p>
+                            <li>Phase one - 165plots</li>
+                        </p>
+                        <p>
+                            <li>Gated complex</li>
+                        </p>
+                    </ul>
+                </div>
+            </div>
+            <div class="img">
+                <img src="images/NoPath - Copy.png" alt="">
+            </div>
+        </div>
+    </div>
+
+    <!-- another-section  -->
+    <div class="aminities">
+        <div class="aminity-head">
+            <div class="slider">
+                <h2> Our <br/> Aminities</h2>
+                <div class="first-image">
+                    <img src="images/NoPath - Copy (27).png" alt="">
+                    <p>Parking Space</p>
+                </div>
+                <div class="first-image">
+                    <img src="images/NoPath - Copy (28).png" alt="">
+                    <p>Swimming Pool</p>
+                </div>
+                <div class="first-image">
+                    <img src="images/NoPath - Copy (29).png" alt="">
+                    <p>Private Security</p>
+                </div>
+            </div>
+            <!-- <img class="cros" src="images/Group 17655.png" alt=""> -->
+        </div>
+
+    </div>
+
+    <!-- =================another-section============== -->
+    <div class="schedule">
+        <div class="chori">
+            <div class="first-chori">
+                <h2>Need Something?</h2>
+                <h2>We are here, contact us anytime.</h2>
+                <button>Schudle a call</button>
+            </div>
+            <div class="second-chori">
+                <img src="images/kindpng_632043.png" alt="">
+            </div>
+        </div>
+        <div class="hr-line">
+            <hr class="length">
+            <h2>Contact form runway suites</h2>
+        </div>
+
+        <div class="contact-form">
+
+            <div class="form-con">
+                <div class="form">
+
+                    <div class="top-form">
+                        <div class="inner-form">
+                            <div class="label">Name</div>
+                            <input type="text" placeholder="Enter Your Name">
+                        </div>
+                        <div class="inner-form">
+                            <div class="label">Mobile no</div>
+                            <input type="text" placeholder="Enter your Mobile no.">
+                        </div>
+
+                    </div>
+
+
+
+                    <div class="bottom-form">
+                        <div class="inner-form">
+                            <div class="label">Email Id</div>
+                            <textarea placeholder="Enter your Email Id"></textarea>
+                        </div>
+                    </div>
+
+                    <button class="btn">Submit</button>
+
+                </div>
+            </div>
+            <div class="contact-image">
+                <img src="images/photo.png" alt="">
+            </div>
+        </div>
+    </div>
+
+    <footer>
+        <div class="foot">
+            <div class="logo-img">
+                <img src="images/Group 17997.png" alt="">
+            </div>
+            <div class="para-foot">
+                <p>© Copyright 2022. Made by Sagar Sharma</p>
+            </div>
+
+        </div>
+        <div class="foot-para">
+            <p>© 2022 Disclaimer This is not the official website of the developer, it belongs to authorised channel partner, and is used for information & marketing purposes only. All rights for logo & images are reserved by the developer. By using or accessing
+                this website you agree with the disclaimer without any qualification or limitation. By accessing this website, the viewer confirms that the information including brochures and marketing collaterals on this website are solely for informational
+                purposes only and the viewer has not relied on this information for making any booking/purchase in any project of the company</p>
+        </div>
+    </footer>
+</body>
+
+</html>

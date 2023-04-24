@@ -1,0 +1,727 @@
+<!DOCTYPE html>
+
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>netflix clone</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+ <!--
+<div class="nav" id="nav">
+    <img src="https://1.bp.blogspot.com/-7mb0sZE7gBo/YUBGPnfeRuI/AAAAAAAAAhc/a9tAl3dOwq82PihSb-WYVAjpcQ-LAzFSQCLcBGAsYHQ/s320/netflix-logo.png" alt="">
+    <img src="https://1.bp.blogspot.com/-CL3oFyfYSyk/YUBGPgsjTrI/AAAAAAAAAhY/85bqLIk6rq8AfXU3A7-hRuDkrBl9Mzv-QCLcBGAsYHQ/s0/netflix-avatar.png" alt="">
+   
+</div>  -->
+
+     <!-- header -->
+      <div class="banner">
+          <div class="banner__contents">
+              <h1 class="banner__title">Money Heist</h1>
+              <div class="banner__buttons">
+                  <button class="banner__button">Play</button>
+                  <button class="banner__button">My list</button>
+              </div>
+              <div class="banner__description">
+                  To carry out the biggest hiest in history, a mysterious man called The professor recruits a band of eight robbers who have  a single characteristics: n....
+              </div>
+          </div>
+          <div class="banner--fadebottom"></div>
+      </div>
+    <!-- netflix originals -->
+    <div class="row">
+      <h2>365 ENTERTAINMENT</h2>
+      <div class="row__posters">
+        <img
+          src="https://1.bp.blogspot.com/-2VtuXYr1pvI/YUBGLu7Z7fI/AAAAAAAAAg8/uVrzj5NlxvIn3ZCcjmtxcodcrKx55MpogCLcBGAsYHQ/s320/large-movie1.jpg"
+          alt=""
+          class="row__poster row__posterLarge"
+        />
+        <img
+          src="https://1.bp.blogspot.com/-pISoks_WIr4/YUBGMw2ejPI/AAAAAAAAAhA/W0staLAM1A4nWIzNuaXyxJZgT4eIsk5FwCLcBGAsYHQ/s320/large-movie2.jpg"
+          alt=""
+          class="row__poster row__posterLarge"
+        />
+        <img
+          src="https://1.bp.blogspot.com/-6L4LnSS2cro/YUBGLGz2CUI/AAAAAAAAAg4/sioYMHs3dKU8EksVP63Rt3V57HigaTSGACLcBGAsYHQ/s320/large-movie3.jpg"
+          alt=""
+          class="row__poster row__posterLarge"
+        />
+        <img
+          src="https://1.bp.blogspot.com/-wPJRJWFOusY/YUBGM5ELnQI/AAAAAAAAAhE/rBlkigmBpkMfihEzH6TTR43PbETvvG5kgCLcBGAsYHQ/s320/large-movie4.jpg"
+          alt=""
+          class="row__poster row__posterLarge"
+        />
+        <img
+          src="https://1.bp.blogspot.com/-fYr-rEzsKVc/YUBGN4mMcFI/AAAAAAAAAhI/voFAhyFaXFUsOsN3p72DYGnGTR6aOSfDgCLcBGAsYHQ/s320/large-movie5.jpg"
+          alt=""
+          class="row__poster row__posterLarge"
+        />
+        <img
+          src="https://1.bp.blogspot.com/-Uhj86a8IQ4U/YUBGO9Nml1I/AAAAAAAAAhQ/kwX7htKfFJ8KUHC-XiHsKAd7FIMX5H6XQCLcBGAsYHQ/s320/large-movie6.jpg"
+          alt=""
+          class="row__poster row__posterLarge"
+        />
+        <img
+          src="https://1.bp.blogspot.com/-Bu6mxI5Tr5A/YUBGObgrUHI/AAAAAAAAAhM/nukgdINpyWc8olHdkuvx0AZUujK5syL-ACLcBGAsYHQ/s320/large-movie7.jpg"
+          alt=""
+          class="row__poster row__posterLarge"
+        />
+        <img
+          src="https://1.bp.blogspot.com/-DMXJY8NxE2A/YUBGPdEiH_I/AAAAAAAAAhU/YRo4VCXvaf4NCIWB-N5U0LLF6Xg2Ywy-gCLcBGAsYHQ/s320/large-movie8.jpg"
+          alt=""
+          class="row__poster row__posterLarge"
+        />
+        <img
+        src="https://1.bp.blogspot.com/-2VtuXYr1pvI/YUBGLu7Z7fI/AAAAAAAAAg8/uVrzj5NlxvIn3ZCcjmtxcodcrKx55MpogCLcBGAsYHQ/s320/large-movie1.jpg"
+        alt=""
+        class="row__poster row__posterLarge"
+      />
+      <img
+        src="https://1.bp.blogspot.com/-pISoks_WIr4/YUBGMw2ejPI/AAAAAAAAAhA/W0staLAM1A4nWIzNuaXyxJZgT4eIsk5FwCLcBGAsYHQ/s320/large-movie2.jpg"
+        alt=""
+        class="row__poster row__posterLarge"
+      />
+      <img
+        src="https://1.bp.blogspot.com/-6L4LnSS2cro/YUBGLGz2CUI/AAAAAAAAAg4/sioYMHs3dKU8EksVP63Rt3V57HigaTSGACLcBGAsYHQ/s320/large-movie3.jpg"
+        alt=""
+        class="row__poster row__posterLarge"
+      />
+      <img
+        src="https://1.bp.blogspot.com/-wPJRJWFOusY/YUBGM5ELnQI/AAAAAAAAAhE/rBlkigmBpkMfihEzH6TTR43PbETvvG5kgCLcBGAsYHQ/s320/large-movie4.jpg"
+        alt=""
+        class="row__poster row__posterLarge"
+      />
+      <img
+        src="https://1.bp.blogspot.com/-fYr-rEzsKVc/YUBGN4mMcFI/AAAAAAAAAhI/voFAhyFaXFUsOsN3p72DYGnGTR6aOSfDgCLcBGAsYHQ/s320/large-movie5.jpg"
+        alt=""
+        class="row__poster row__posterLarge"
+      />
+      <img
+        src="https://1.bp.blogspot.com/-Uhj86a8IQ4U/YUBGO9Nml1I/AAAAAAAAAhQ/kwX7htKfFJ8KUHC-XiHsKAd7FIMX5H6XQCLcBGAsYHQ/s320/large-movie6.jpg"
+        alt=""
+        class="row__poster row__posterLarge"
+      />
+      <img
+        src="https://1.bp.blogspot.com/-Bu6mxI5Tr5A/YUBGObgrUHI/AAAAAAAAAhM/nukgdINpyWc8olHdkuvx0AZUujK5syL-ACLcBGAsYHQ/s320/large-movie7.jpg"
+        alt=""
+        class="row__poster row__posterLarge"
+      />
+      <img
+        src="https://1.bp.blogspot.com/-DMXJY8NxE2A/YUBGPdEiH_I/AAAAAAAAAhU/YRo4VCXvaf4NCIWB-N5U0LLF6Xg2Ywy-gCLcBGAsYHQ/s320/large-movie8.jpg"
+        alt=""
+        class="row__poster row__posterLarge"
+      />
+      </div>
+    </div>
+    <!-- trending now -->
+    <div class="row">
+      <h2>Trending now</h2>
+      <div class="row__posters">
+        <img
+          src="https://1.bp.blogspot.com/-64XynGIgzzw/YUBGTP0b3II/AAAAAAAAAhg/GoszIkde9EEFj1fHpN91prM5XrnzOnPQgCLcBGAsYHQ/s320/small-movie1.jpg"
+          alt=""
+          class="row__poster"
+        />
+        <img
+          src="https://1.bp.blogspot.com/-wHqKyrEA0WY/YUBGWPmHTTI/AAAAAAAAAho/8itACFcipv0izRuVRrAkZcmIA0lYpFEnwCLcBGAsYHQ/s320/small-movie2.jpg"
+          alt=""
+          class="row__poster"
+        />
+        <img
+          src="https://1.bp.blogspot.com/-I1vSPIh3n0I/YUBGWRJgUuI/AAAAAAAAAhs/tryhbH0V3QoyWNoVyTKoBUl8jqzZzhE1QCLcBGAsYHQ/s320/small-movie3.jpg"
+          alt=""
+          class="row__poster"
+        />
+        <img
+          src="https://1.bp.blogspot.com/-l1M_o_u4pd0/YUBGV1O2A5I/AAAAAAAAAhk/BFbctGpRaTwG_sqC_fYljwW9fZXUsgkcACLcBGAsYHQ/s320/small-movie4.jpg"
+          alt=""
+          class="row__poster"
+        />
+        <img
+          src="https://1.bp.blogspot.com/-6xtnzAAWaJE/YUBGa8q6p3I/AAAAAAAAAh8/GketvXiG6_AEV7cXuHNh-itPJqnbdktLgCLcBGAsYHQ/s320/small-movie5.jpg"
+          alt=""
+          class="row__poster"
+        />
+        <img
+          src="https://1.bp.blogspot.com/-JJW0yqJFVqk/YUBGX2nHx-I/AAAAAAAAAhw/Zi6xEe9CwFwEySeLeU68Mz9cL7UrabZ0ACLcBGAsYHQ/s320/small-movie6.jpg"
+          alt=""
+          class="row__poster"
+        />
+        <img
+          src="https://1.bp.blogspot.com/-YZKEj4HIfvI/YUBGaa3RFwI/AAAAAAAAAh4/cHwamt8sAw4tzZ1cE1zB8blNdZAmEpxFwCLcBGAsYHQ/s320/small-movie7.jpg"
+          alt=""
+          class="row__poster"
+        />
+        <img
+          src="https://1.bp.blogspot.com/-6sbMwPnKmJ8/YUBGZ4U8P3I/AAAAAAAAAh0/0APNc7nUlrQQZnUVxtGahBZrMSHEqgebgCLcBGAsYHQ/s320/small-movie8.jpg"
+          alt=""
+          class="row__poster"
+        />
+        <img
+        src="https://1.bp.blogspot.com/-64XynGIgzzw/YUBGTP0b3II/AAAAAAAAAhg/GoszIkde9EEFj1fHpN91prM5XrnzOnPQgCLcBGAsYHQ/s320/small-movie1.jpg"
+        alt=""
+        class="row__poster"
+      />
+      <img
+        src="https://1.bp.blogspot.com/-wHqKyrEA0WY/YUBGWPmHTTI/AAAAAAAAAho/8itACFcipv0izRuVRrAkZcmIA0lYpFEnwCLcBGAsYHQ/s320/small-movie2.jpg"
+        alt=""
+        class="row__poster"
+      />
+      <img
+        src="https://1.bp.blogspot.com/-I1vSPIh3n0I/YUBGWRJgUuI/AAAAAAAAAhs/tryhbH0V3QoyWNoVyTKoBUl8jqzZzhE1QCLcBGAsYHQ/s320/small-movie3.jpg"
+        alt=""
+        class="row__poster"
+      />
+      <img
+        src="https://1.bp.blogspot.com/-l1M_o_u4pd0/YUBGV1O2A5I/AAAAAAAAAhk/BFbctGpRaTwG_sqC_fYljwW9fZXUsgkcACLcBGAsYHQ/s320/small-movie4.jpg"
+        alt=""
+        class="row__poster"
+      />
+      <img
+        src="https://1.bp.blogspot.com/-6xtnzAAWaJE/YUBGa8q6p3I/AAAAAAAAAh8/GketvXiG6_AEV7cXuHNh-itPJqnbdktLgCLcBGAsYHQ/s320/small-movie5.jpg"
+        alt=""
+        class="row__poster"
+      />
+      <img
+        src="https://1.bp.blogspot.com/-JJW0yqJFVqk/YUBGX2nHx-I/AAAAAAAAAhw/Zi6xEe9CwFwEySeLeU68Mz9cL7UrabZ0ACLcBGAsYHQ/s320/small-movie6.jpg"
+        alt=""
+        class="row__poster"
+      />
+      <img
+        src="https://1.bp.blogspot.com/-YZKEj4HIfvI/YUBGaa3RFwI/AAAAAAAAAh4/cHwamt8sAw4tzZ1cE1zB8blNdZAmEpxFwCLcBGAsYHQ/s320/small-movie7.jpg"
+        alt=""
+        class="row__poster"
+      />
+      <img
+        src="https://1.bp.blogspot.com/-6sbMwPnKmJ8/YUBGZ4U8P3I/AAAAAAAAAh0/0APNc7nUlrQQZnUVxtGahBZrMSHEqgebgCLcBGAsYHQ/s320/small-movie8.jpg"
+        alt=""
+        class="row__poster"
+      />
+      </div>
+    </div>
+    <!-- top rated -->
+    <div class="row">
+        <h2>Top rated</h2>
+        <div class="row__posters">
+          <img
+            src="https://1.bp.blogspot.com/-64XynGIgzzw/YUBGTP0b3II/AAAAAAAAAhg/GoszIkde9EEFj1fHpN91prM5XrnzOnPQgCLcBGAsYHQ/s320/small-movie1.jpg"
+            alt=""
+            class="row__poster"
+          />
+          <img
+            src="https://1.bp.blogspot.com/-wHqKyrEA0WY/YUBGWPmHTTI/AAAAAAAAAho/8itACFcipv0izRuVRrAkZcmIA0lYpFEnwCLcBGAsYHQ/s320/small-movie2.jpg"
+            alt=""
+            class="row__poster"
+          />
+          <img
+            src="https://1.bp.blogspot.com/-I1vSPIh3n0I/YUBGWRJgUuI/AAAAAAAAAhs/tryhbH0V3QoyWNoVyTKoBUl8jqzZzhE1QCLcBGAsYHQ/s320/small-movie3.jpg"
+            alt=""
+            class="row__poster"
+          />
+          <img
+            src="https://1.bp.blogspot.com/-l1M_o_u4pd0/YUBGV1O2A5I/AAAAAAAAAhk/BFbctGpRaTwG_sqC_fYljwW9fZXUsgkcACLcBGAsYHQ/s320/small-movie4.jpg"
+            alt=""
+            class="row__poster"
+          />
+          <img
+            src="https://1.bp.blogspot.com/-6xtnzAAWaJE/YUBGa8q6p3I/AAAAAAAAAh8/GketvXiG6_AEV7cXuHNh-itPJqnbdktLgCLcBGAsYHQ/s320/small-movie5.jpg"
+            alt=""
+            class="row__poster"
+          />
+          <img
+            src="https://1.bp.blogspot.com/-JJW0yqJFVqk/YUBGX2nHx-I/AAAAAAAAAhw/Zi6xEe9CwFwEySeLeU68Mz9cL7UrabZ0ACLcBGAsYHQ/s320/small-movie6.jpg"
+            alt=""
+            class="row__poster"
+          />
+          <img
+            src="https://1.bp.blogspot.com/-YZKEj4HIfvI/YUBGaa3RFwI/AAAAAAAAAh4/cHwamt8sAw4tzZ1cE1zB8blNdZAmEpxFwCLcBGAsYHQ/s320/small-movie7.jpg"
+            alt=""
+            class="row__poster"
+          />
+          <img
+            src="https://1.bp.blogspot.com/-6sbMwPnKmJ8/YUBGZ4U8P3I/AAAAAAAAAh0/0APNc7nUlrQQZnUVxtGahBZrMSHEqgebgCLcBGAsYHQ/s320/small-movie8.jpg"
+            alt=""
+            class="row__poster"
+          />
+          <img
+          src="https://1.bp.blogspot.com/-64XynGIgzzw/YUBGTP0b3II/AAAAAAAAAhg/GoszIkde9EEFj1fHpN91prM5XrnzOnPQgCLcBGAsYHQ/s320/small-movie1.jpg"
+          alt=""
+          class="row__poster"
+        />
+        <img
+          src="https://1.bp.blogspot.com/-wHqKyrEA0WY/YUBGWPmHTTI/AAAAAAAAAho/8itACFcipv0izRuVRrAkZcmIA0lYpFEnwCLcBGAsYHQ/s320/small-movie2.jpg"
+          alt=""
+          class="row__poster"
+        />
+        <img
+          src="https://1.bp.blogspot.com/-I1vSPIh3n0I/YUBGWRJgUuI/AAAAAAAAAhs/tryhbH0V3QoyWNoVyTKoBUl8jqzZzhE1QCLcBGAsYHQ/s320/small-movie3.jpg"
+          alt=""
+          class="row__poster"
+        />
+        <img
+          src="https://1.bp.blogspot.com/-l1M_o_u4pd0/YUBGV1O2A5I/AAAAAAAAAhk/BFbctGpRaTwG_sqC_fYljwW9fZXUsgkcACLcBGAsYHQ/s320/small-movie4.jpg"
+          alt=""
+          class="row__poster"
+        />
+        <img
+          src="https://1.bp.blogspot.com/-6xtnzAAWaJE/YUBGa8q6p3I/AAAAAAAAAh8/GketvXiG6_AEV7cXuHNh-itPJqnbdktLgCLcBGAsYHQ/s320/small-movie5.jpg"
+          alt=""
+          class="row__poster"
+        />
+        <img
+          src="https://1.bp.blogspot.com/-JJW0yqJFVqk/YUBGX2nHx-I/AAAAAAAAAhw/Zi6xEe9CwFwEySeLeU68Mz9cL7UrabZ0ACLcBGAsYHQ/s320/small-movie6.jpg"
+          alt=""
+          class="row__poster"
+        />
+        <img
+          src="https://1.bp.blogspot.com/-YZKEj4HIfvI/YUBGaa3RFwI/AAAAAAAAAh4/cHwamt8sAw4tzZ1cE1zB8blNdZAmEpxFwCLcBGAsYHQ/s320/small-movie7.jpg"
+          alt=""
+          class="row__poster"
+        />
+        <img
+          src="https://1.bp.blogspot.com/-6sbMwPnKmJ8/YUBGZ4U8P3I/AAAAAAAAAh0/0APNc7nUlrQQZnUVxtGahBZrMSHEqgebgCLcBGAsYHQ/s320/small-movie8.jpg"
+          alt=""
+          class="row__poster"/>
+        </div>
+      </div>
+      <!-- action movies -->
+      <div class="row">
+        <h2>action movies</h2>
+        <div class="row__posters">
+          <img
+            src="https://1.bp.blogspot.com/-64XynGIgzzw/YUBGTP0b3II/AAAAAAAAAhg/GoszIkde9EEFj1fHpN91prM5XrnzOnPQgCLcBGAsYHQ/s320/small-movie1.jpg"
+            alt=""
+            class="row__poster"
+          />
+          <img
+            src="https://1.bp.blogspot.com/-wHqKyrEA0WY/YUBGWPmHTTI/AAAAAAAAAho/8itACFcipv0izRuVRrAkZcmIA0lYpFEnwCLcBGAsYHQ/s320/small-movie2.jpg"
+            alt=""
+            class="row__poster"
+          />
+          <img
+            src="https://1.bp.blogspot.com/-I1vSPIh3n0I/YUBGWRJgUuI/AAAAAAAAAhs/tryhbH0V3QoyWNoVyTKoBUl8jqzZzhE1QCLcBGAsYHQ/s320/small-movie3.jpg"
+            alt=""
+            class="row__poster"
+          />
+          <img
+            src="https://1.bp.blogspot.com/-l1M_o_u4pd0/YUBGV1O2A5I/AAAAAAAAAhk/BFbctGpRaTwG_sqC_fYljwW9fZXUsgkcACLcBGAsYHQ/s320/small-movie4.jpg"
+            alt=""
+            class="row__poster"
+          />
+          <img
+            src="https://1.bp.blogspot.com/-6xtnzAAWaJE/YUBGa8q6p3I/AAAAAAAAAh8/GketvXiG6_AEV7cXuHNh-itPJqnbdktLgCLcBGAsYHQ/s320/small-movie5.jpg"
+            alt=""
+            class="row__poster"
+          />
+          <img
+            src="https://1.bp.blogspot.com/-JJW0yqJFVqk/YUBGX2nHx-I/AAAAAAAAAhw/Zi6xEe9CwFwEySeLeU68Mz9cL7UrabZ0ACLcBGAsYHQ/s320/small-movie6.jpg"
+            alt=""
+            class="row__poster"
+          />
+          <img
+            src="https://1.bp.blogspot.com/-YZKEj4HIfvI/YUBGaa3RFwI/AAAAAAAAAh4/cHwamt8sAw4tzZ1cE1zB8blNdZAmEpxFwCLcBGAsYHQ/s320/small-movie7.jpg"
+            alt=""
+            class="row__poster"
+          />
+          <img
+            src="https://1.bp.blogspot.com/-6sbMwPnKmJ8/YUBGZ4U8P3I/AAAAAAAAAh0/0APNc7nUlrQQZnUVxtGahBZrMSHEqgebgCLcBGAsYHQ/s320/small-movie8.jpg"
+            alt=""
+            class="row__poster"
+          />
+          <img
+          src="https://1.bp.blogspot.com/-64XynGIgzzw/YUBGTP0b3II/AAAAAAAAAhg/GoszIkde9EEFj1fHpN91prM5XrnzOnPQgCLcBGAsYHQ/s320/small-movie1.jpg"
+          alt=""
+          class="row__poster"
+        />
+        <img
+          src="https://1.bp.blogspot.com/-wHqKyrEA0WY/YUBGWPmHTTI/AAAAAAAAAho/8itACFcipv0izRuVRrAkZcmIA0lYpFEnwCLcBGAsYHQ/s320/small-movie2.jpg"
+          alt=""
+          class="row__poster"
+        />
+        <img
+          src="https://1.bp.blogspot.com/-I1vSPIh3n0I/YUBGWRJgUuI/AAAAAAAAAhs/tryhbH0V3QoyWNoVyTKoBUl8jqzZzhE1QCLcBGAsYHQ/s320/small-movie3.jpg"
+          alt=""
+          class="row__poster"
+        />
+        <img
+          src="https://1.bp.blogspot.com/-l1M_o_u4pd0/YUBGV1O2A5I/AAAAAAAAAhk/BFbctGpRaTwG_sqC_fYljwW9fZXUsgkcACLcBGAsYHQ/s320/small-movie4.jpg"
+          alt=""
+          class="row__poster"
+        />
+        <img
+          src="https://1.bp.blogspot.com/-6xtnzAAWaJE/YUBGa8q6p3I/AAAAAAAAAh8/GketvXiG6_AEV7cXuHNh-itPJqnbdktLgCLcBGAsYHQ/s320/small-movie5.jpg"
+          alt=""
+          class="row__poster"
+        />
+        <img
+          src="https://1.bp.blogspot.com/-JJW0yqJFVqk/YUBGX2nHx-I/AAAAAAAAAhw/Zi6xEe9CwFwEySeLeU68Mz9cL7UrabZ0ACLcBGAsYHQ/s320/small-movie6.jpg"
+          alt=""
+          class="row__poster"
+        />
+        <img
+          src="https://1.bp.blogspot.com/-YZKEj4HIfvI/YUBGaa3RFwI/AAAAAAAAAh4/cHwamt8sAw4tzZ1cE1zB8blNdZAmEpxFwCLcBGAsYHQ/s320/small-movie7.jpg"
+          alt=""
+          class="row__poster"
+        />
+        <img
+          src="https://1.bp.blogspot.com/-6sbMwPnKmJ8/YUBGZ4U8P3I/AAAAAAAAAh0/0APNc7nUlrQQZnUVxtGahBZrMSHEqgebgCLcBGAsYHQ/s320/small-movie8.jpg"
+          alt=""
+          class="row__poster"/>
+        </div>
+      </div>
+
+      <!-- comedy movies -->
+      <div class="row">
+        <h2>comedy movies</h2>
+        <div class="row__posters">
+          <img
+            src="https://1.bp.blogspot.com/-64XynGIgzzw/YUBGTP0b3II/AAAAAAAAAhg/GoszIkde9EEFj1fHpN91prM5XrnzOnPQgCLcBGAsYHQ/s320/small-movie1.jpg"
+            alt=""
+            class="row__poster"
+          />
+          <img
+            src="https://1.bp.blogspot.com/-wHqKyrEA0WY/YUBGWPmHTTI/AAAAAAAAAho/8itACFcipv0izRuVRrAkZcmIA0lYpFEnwCLcBGAsYHQ/s320/small-movie2.jpg"
+            alt=""
+            class="row__poster"
+          />
+          <img
+            src="https://1.bp.blogspot.com/-I1vSPIh3n0I/YUBGWRJgUuI/AAAAAAAAAhs/tryhbH0V3QoyWNoVyTKoBUl8jqzZzhE1QCLcBGAsYHQ/s320/small-movie3.jpg"
+            alt=""
+            class="row__poster"
+          />
+          <img
+            src="https://1.bp.blogspot.com/-l1M_o_u4pd0/YUBGV1O2A5I/AAAAAAAAAhk/BFbctGpRaTwG_sqC_fYljwW9fZXUsgkcACLcBGAsYHQ/s320/small-movie4.jpg"
+            alt=""
+            class="row__poster"
+          />
+          <img
+            src="https://1.bp.blogspot.com/-6xtnzAAWaJE/YUBGa8q6p3I/AAAAAAAAAh8/GketvXiG6_AEV7cXuHNh-itPJqnbdktLgCLcBGAsYHQ/s320/small-movie5.jpg"
+            alt=""
+            class="row__poster"
+          />
+          <img
+            src="https://1.bp.blogspot.com/-JJW0yqJFVqk/YUBGX2nHx-I/AAAAAAAAAhw/Zi6xEe9CwFwEySeLeU68Mz9cL7UrabZ0ACLcBGAsYHQ/s320/small-movie6.jpg"
+            alt=""
+            class="row__poster"
+          />
+          <img
+            src="https://1.bp.blogspot.com/-YZKEj4HIfvI/YUBGaa3RFwI/AAAAAAAAAh4/cHwamt8sAw4tzZ1cE1zB8blNdZAmEpxFwCLcBGAsYHQ/s320/small-movie7.jpg"
+            alt=""
+            class="row__poster"
+          />
+          <img
+            src="https://1.bp.blogspot.com/-6sbMwPnKmJ8/YUBGZ4U8P3I/AAAAAAAAAh0/0APNc7nUlrQQZnUVxtGahBZrMSHEqgebgCLcBGAsYHQ/s320/small-movie8.jpg"
+            alt=""
+            class="row__poster"
+          />
+          <img
+          src="https://1.bp.blogspot.com/-64XynGIgzzw/YUBGTP0b3II/AAAAAAAAAhg/GoszIkde9EEFj1fHpN91prM5XrnzOnPQgCLcBGAsYHQ/s320/small-movie1.jpg"
+          alt=""
+          class="row__poster"
+        />
+        <img
+          src="https://1.bp.blogspot.com/-wHqKyrEA0WY/YUBGWPmHTTI/AAAAAAAAAho/8itACFcipv0izRuVRrAkZcmIA0lYpFEnwCLcBGAsYHQ/s320/small-movie2.jpg"
+          alt=""
+          class="row__poster"
+        />
+        <img
+          src="https://1.bp.blogspot.com/-I1vSPIh3n0I/YUBGWRJgUuI/AAAAAAAAAhs/tryhbH0V3QoyWNoVyTKoBUl8jqzZzhE1QCLcBGAsYHQ/s320/small-movie3.jpg"
+          alt=""
+          class="row__poster"
+        />
+        <img
+          src="https://1.bp.blogspot.com/-l1M_o_u4pd0/YUBGV1O2A5I/AAAAAAAAAhk/BFbctGpRaTwG_sqC_fYljwW9fZXUsgkcACLcBGAsYHQ/s320/small-movie4.jpg"
+          alt=""
+          class="row__poster"
+        />
+        <img
+          src="https://1.bp.blogspot.com/-6xtnzAAWaJE/YUBGa8q6p3I/AAAAAAAAAh8/GketvXiG6_AEV7cXuHNh-itPJqnbdktLgCLcBGAsYHQ/s320/small-movie5.jpg"
+          alt=""
+          class="row__poster"
+        />
+        <img
+          src="https://1.bp.blogspot.com/-JJW0yqJFVqk/YUBGX2nHx-I/AAAAAAAAAhw/Zi6xEe9CwFwEySeLeU68Mz9cL7UrabZ0ACLcBGAsYHQ/s320/small-movie6.jpg"
+          alt=""
+          class="row__poster"
+        />
+        <img
+          src="https://1.bp.blogspot.com/-YZKEj4HIfvI/YUBGaa3RFwI/AAAAAAAAAh4/cHwamt8sAw4tzZ1cE1zB8blNdZAmEpxFwCLcBGAsYHQ/s320/small-movie7.jpg"
+          alt=""
+          class="row__poster"
+        />
+        <img
+          src="https://1.bp.blogspot.com/-6sbMwPnKmJ8/YUBGZ4U8P3I/AAAAAAAAAh0/0APNc7nUlrQQZnUVxtGahBZrMSHEqgebgCLcBGAsYHQ/s320/small-movie8.jpg"
+          alt=""
+          class="row__poster"/>
+        </div>
+      </div>
+      <!-- horror movies -->
+      <div class="row">
+        <h2>horror movies</h2>
+        <div class="row__posters">
+          <img
+            src="https://1.bp.blogspot.com/-64XynGIgzzw/YUBGTP0b3II/AAAAAAAAAhg/GoszIkde9EEFj1fHpN91prM5XrnzOnPQgCLcBGAsYHQ/s320/small-movie1.jpg"
+            alt=""
+            class="row__poster"
+          />
+          <img
+            src="https://1.bp.blogspot.com/-wHqKyrEA0WY/YUBGWPmHTTI/AAAAAAAAAho/8itACFcipv0izRuVRrAkZcmIA0lYpFEnwCLcBGAsYHQ/s320/small-movie2.jpg"
+            alt=""
+            class="row__poster"
+          />
+          <img
+            src="https://1.bp.blogspot.com/-I1vSPIh3n0I/YUBGWRJgUuI/AAAAAAAAAhs/tryhbH0V3QoyWNoVyTKoBUl8jqzZzhE1QCLcBGAsYHQ/s320/small-movie3.jpg"
+            alt=""
+            class="row__poster"
+          />
+          <img
+            src="https://1.bp.blogspot.com/-l1M_o_u4pd0/YUBGV1O2A5I/AAAAAAAAAhk/BFbctGpRaTwG_sqC_fYljwW9fZXUsgkcACLcBGAsYHQ/s320/small-movie4.jpg"
+            alt=""
+            class="row__poster"
+          />
+          <img
+            src="https://1.bp.blogspot.com/-6xtnzAAWaJE/YUBGa8q6p3I/AAAAAAAAAh8/GketvXiG6_AEV7cXuHNh-itPJqnbdktLgCLcBGAsYHQ/s320/small-movie5.jpg"
+            alt=""
+            class="row__poster"
+          />
+          <img
+            src="https://1.bp.blogspot.com/-JJW0yqJFVqk/YUBGX2nHx-I/AAAAAAAAAhw/Zi6xEe9CwFwEySeLeU68Mz9cL7UrabZ0ACLcBGAsYHQ/s320/small-movie6.jpg"
+            alt=""
+            class="row__poster"
+          />
+          <img
+            src="https://1.bp.blogspot.com/-YZKEj4HIfvI/YUBGaa3RFwI/AAAAAAAAAh4/cHwamt8sAw4tzZ1cE1zB8blNdZAmEpxFwCLcBGAsYHQ/s320/small-movie7.jpg"
+            alt=""
+            class="row__poster"
+          />
+          <img
+            src="https://1.bp.blogspot.com/-6sbMwPnKmJ8/YUBGZ4U8P3I/AAAAAAAAAh0/0APNc7nUlrQQZnUVxtGahBZrMSHEqgebgCLcBGAsYHQ/s320/small-movie8.jpg"
+            alt=""
+            class="row__poster"
+          />
+          <img
+          src="https://1.bp.blogspot.com/-64XynGIgzzw/YUBGTP0b3II/AAAAAAAAAhg/GoszIkde9EEFj1fHpN91prM5XrnzOnPQgCLcBGAsYHQ/s320/small-movie1.jpg"
+          alt=""
+          class="row__poster"
+        />
+        <img
+          src="https://1.bp.blogspot.com/-wHqKyrEA0WY/YUBGWPmHTTI/AAAAAAAAAho/8itACFcipv0izRuVRrAkZcmIA0lYpFEnwCLcBGAsYHQ/s320/small-movie2.jpg"
+          alt=""
+          class="row__poster"
+        />
+        <img
+          src="https://1.bp.blogspot.com/-I1vSPIh3n0I/YUBGWRJgUuI/AAAAAAAAAhs/tryhbH0V3QoyWNoVyTKoBUl8jqzZzhE1QCLcBGAsYHQ/s320/small-movie3.jpg"
+          alt=""
+          class="row__poster"
+        />
+        <img
+          src="https://1.bp.blogspot.com/-l1M_o_u4pd0/YUBGV1O2A5I/AAAAAAAAAhk/BFbctGpRaTwG_sqC_fYljwW9fZXUsgkcACLcBGAsYHQ/s320/small-movie4.jpg"
+          alt=""
+          class="row__poster"
+        />
+        <img
+          src="https://1.bp.blogspot.com/-6xtnzAAWaJE/YUBGa8q6p3I/AAAAAAAAAh8/GketvXiG6_AEV7cXuHNh-itPJqnbdktLgCLcBGAsYHQ/s320/small-movie5.jpg"
+          alt=""
+          class="row__poster"
+        />
+        <img
+          src="https://1.bp.blogspot.com/-JJW0yqJFVqk/YUBGX2nHx-I/AAAAAAAAAhw/Zi6xEe9CwFwEySeLeU68Mz9cL7UrabZ0ACLcBGAsYHQ/s320/small-movie6.jpg"
+          alt=""
+          class="row__poster"
+        />
+        <img
+          src="https://1.bp.blogspot.com/-YZKEj4HIfvI/YUBGaa3RFwI/AAAAAAAAAh4/cHwamt8sAw4tzZ1cE1zB8blNdZAmEpxFwCLcBGAsYHQ/s320/small-movie7.jpg"
+          alt=""
+          class="row__poster"
+        />
+        <img
+          src="https://1.bp.blogspot.com/-6sbMwPnKmJ8/YUBGZ4U8P3I/AAAAAAAAAh0/0APNc7nUlrQQZnUVxtGahBZrMSHEqgebgCLcBGAsYHQ/s320/small-movie8.jpg"
+          alt=""
+          class="row__poster"/>
+        </div>
+      </div>
+      <!-- romance movies -->
+      <div class="row">
+        <h2>romance movies</h2>
+        <div class="row__posters">
+          <img
+            src="https://1.bp.blogspot.com/-64XynGIgzzw/YUBGTP0b3II/AAAAAAAAAhg/GoszIkde9EEFj1fHpN91prM5XrnzOnPQgCLcBGAsYHQ/s320/small-movie1.jpg"
+            alt=""
+            class="row__poster"
+          />
+          <img
+            src="https://1.bp.blogspot.com/-wHqKyrEA0WY/YUBGWPmHTTI/AAAAAAAAAho/8itACFcipv0izRuVRrAkZcmIA0lYpFEnwCLcBGAsYHQ/s320/small-movie2.jpg"
+            alt=""
+            class="row__poster"
+          />
+          <img
+            src="https://1.bp.blogspot.com/-I1vSPIh3n0I/YUBGWRJgUuI/AAAAAAAAAhs/tryhbH0V3QoyWNoVyTKoBUl8jqzZzhE1QCLcBGAsYHQ/s320/small-movie3.jpg"
+            alt=""
+            class="row__poster"
+          />
+          <img
+            src="https://1.bp.blogspot.com/-l1M_o_u4pd0/YUBGV1O2A5I/AAAAAAAAAhk/BFbctGpRaTwG_sqC_fYljwW9fZXUsgkcACLcBGAsYHQ/s320/small-movie4.jpg"
+            alt=""
+            class="row__poster"
+          />
+          <img
+            src="https://1.bp.blogspot.com/-6xtnzAAWaJE/YUBGa8q6p3I/AAAAAAAAAh8/GketvXiG6_AEV7cXuHNh-itPJqnbdktLgCLcBGAsYHQ/s320/small-movie5.jpg"
+            alt=""
+            class="row__poster"
+          />
+          <img
+            src="https://1.bp.blogspot.com/-JJW0yqJFVqk/YUBGX2nHx-I/AAAAAAAAAhw/Zi6xEe9CwFwEySeLeU68Mz9cL7UrabZ0ACLcBGAsYHQ/s320/small-movie6.jpg"
+            alt=""
+            class="row__poster"
+          />
+          <img
+            src="https://1.bp.blogspot.com/-YZKEj4HIfvI/YUBGaa3RFwI/AAAAAAAAAh4/cHwamt8sAw4tzZ1cE1zB8blNdZAmEpxFwCLcBGAsYHQ/s320/small-movie7.jpg"
+            alt=""
+            class="row__poster"
+          />
+          <img
+            src="https://1.bp.blogspot.com/-6sbMwPnKmJ8/YUBGZ4U8P3I/AAAAAAAAAh0/0APNc7nUlrQQZnUVxtGahBZrMSHEqgebgCLcBGAsYHQ/s320/small-movie8.jpg"
+            alt=""
+            class="row__poster"
+          />
+          <img
+          src="https://1.bp.blogspot.com/-64XynGIgzzw/YUBGTP0b3II/AAAAAAAAAhg/GoszIkde9EEFj1fHpN91prM5XrnzOnPQgCLcBGAsYHQ/s320/small-movie1.jpg"
+          alt=""
+          class="row__poster"
+        />
+        <img
+          src="https://1.bp.blogspot.com/-wHqKyrEA0WY/YUBGWPmHTTI/AAAAAAAAAho/8itACFcipv0izRuVRrAkZcmIA0lYpFEnwCLcBGAsYHQ/s320/small-movie2.jpg"
+          alt=""
+          class="row__poster"
+        />
+        <img
+          src="https://1.bp.blogspot.com/-I1vSPIh3n0I/YUBGWRJgUuI/AAAAAAAAAhs/tryhbH0V3QoyWNoVyTKoBUl8jqzZzhE1QCLcBGAsYHQ/s320/small-movie3.jpg"
+          alt=""
+          class="row__poster"
+        />
+        <img
+          src="https://1.bp.blogspot.com/-l1M_o_u4pd0/YUBGV1O2A5I/AAAAAAAAAhk/BFbctGpRaTwG_sqC_fYljwW9fZXUsgkcACLcBGAsYHQ/s320/small-movie4.jpg"
+          alt=""
+          class="row__poster"
+        />
+        <img
+          src="https://1.bp.blogspot.com/-6xtnzAAWaJE/YUBGa8q6p3I/AAAAAAAAAh8/GketvXiG6_AEV7cXuHNh-itPJqnbdktLgCLcBGAsYHQ/s320/small-movie5.jpg"
+          alt=""
+          class="row__poster"
+        />
+        <img
+          src="https://1.bp.blogspot.com/-JJW0yqJFVqk/YUBGX2nHx-I/AAAAAAAAAhw/Zi6xEe9CwFwEySeLeU68Mz9cL7UrabZ0ACLcBGAsYHQ/s320/small-movie6.jpg"
+          alt=""
+          class="row__poster"
+        />
+        <img
+          src="https://1.bp.blogspot.com/-YZKEj4HIfvI/YUBGaa3RFwI/AAAAAAAAAh4/cHwamt8sAw4tzZ1cE1zB8blNdZAmEpxFwCLcBGAsYHQ/s320/small-movie7.jpg"
+          alt=""
+          class="row__poster"
+        />
+        <img
+          src="https://1.bp.blogspot.com/-6sbMwPnKmJ8/YUBGZ4U8P3I/AAAAAAAAAh0/0APNc7nUlrQQZnUVxtGahBZrMSHEqgebgCLcBGAsYHQ/s320/small-movie8.jpg"
+          alt=""
+          class="row__poster"/>
+        </div>
+      </div>
+      <!-- documentaries -->
+      <div class="row">
+        <h2>documentaries</h2>
+        <div class="row__posters">
+          <img
+            src="https://1.bp.blogspot.com/-64XynGIgzzw/YUBGTP0b3II/AAAAAAAAAhg/GoszIkde9EEFj1fHpN91prM5XrnzOnPQgCLcBGAsYHQ/s320/small-movie1.jpg"
+            alt=""
+            class="row__poster"
+          />
+          <img
+            src="https://1.bp.blogspot.com/-wHqKyrEA0WY/YUBGWPmHTTI/AAAAAAAAAho/8itACFcipv0izRuVRrAkZcmIA0lYpFEnwCLcBGAsYHQ/s320/small-movie2.jpg"
+            alt=""
+            class="row__poster"
+          />
+          <img
+            src="https://1.bp.blogspot.com/-I1vSPIh3n0I/YUBGWRJgUuI/AAAAAAAAAhs/tryhbH0V3QoyWNoVyTKoBUl8jqzZzhE1QCLcBGAsYHQ/s320/small-movie3.jpg"
+            alt=""
+            class="row__poster"
+          />
+          <img
+            src="https://1.bp.blogspot.com/-l1M_o_u4pd0/YUBGV1O2A5I/AAAAAAAAAhk/BFbctGpRaTwG_sqC_fYljwW9fZXUsgkcACLcBGAsYHQ/s320/small-movie4.jpg"
+            alt=""
+            class="row__poster"
+          />
+          <img
+            src="https://1.bp.blogspot.com/-6xtnzAAWaJE/YUBGa8q6p3I/AAAAAAAAAh8/GketvXiG6_AEV7cXuHNh-itPJqnbdktLgCLcBGAsYHQ/s320/small-movie5.jpg"
+            alt=""
+            class="row__poster"
+          />
+          <img
+            src="https://1.bp.blogspot.com/-JJW0yqJFVqk/YUBGX2nHx-I/AAAAAAAAAhw/Zi6xEe9CwFwEySeLeU68Mz9cL7UrabZ0ACLcBGAsYHQ/s320/small-movie6.jpg"
+            alt=""
+            class="row__poster"
+          />
+          <img
+            src="https://1.bp.blogspot.com/-YZKEj4HIfvI/YUBGaa3RFwI/AAAAAAAAAh4/cHwamt8sAw4tzZ1cE1zB8blNdZAmEpxFwCLcBGAsYHQ/s320/small-movie7.jpg"
+            alt=""
+            class="row__poster"
+          />
+          <img
+            src="https://1.bp.blogspot.com/-6sbMwPnKmJ8/YUBGZ4U8P3I/AAAAAAAAAh0/0APNc7nUlrQQZnUVxtGahBZrMSHEqgebgCLcBGAsYHQ/s320/small-movie8.jpg"
+            alt=""
+            class="row__poster"
+          />
+          <img
+          src="https://1.bp.blogspot.com/-64XynGIgzzw/YUBGTP0b3II/AAAAAAAAAhg/GoszIkde9EEFj1fHpN91prM5XrnzOnPQgCLcBGAsYHQ/s320/small-movie1.jpg"
+          alt=""
+          class="row__poster"
+        />
+        <img
+          src="https://1.bp.blogspot.com/-wHqKyrEA0WY/YUBGWPmHTTI/AAAAAAAAAho/8itACFcipv0izRuVRrAkZcmIA0lYpFEnwCLcBGAsYHQ/s320/small-movie2.jpg"
+          alt=""
+          class="row__poster"
+        />
+        <img
+          src="https://1.bp.blogspot.com/-I1vSPIh3n0I/YUBGWRJgUuI/AAAAAAAAAhs/tryhbH0V3QoyWNoVyTKoBUl8jqzZzhE1QCLcBGAsYHQ/s320/small-movie3.jpg"
+          alt=""
+          class="row__poster"
+        />
+        <img
+          src="https://1.bp.blogspot.com/-l1M_o_u4pd0/YUBGV1O2A5I/AAAAAAAAAhk/BFbctGpRaTwG_sqC_fYljwW9fZXUsgkcACLcBGAsYHQ/s320/small-movie4.jpg"
+          alt=""
+          class="row__poster"
+        />
+        <img
+          src="https://1.bp.blogspot.com/-6xtnzAAWaJE/YUBGa8q6p3I/AAAAAAAAAh8/GketvXiG6_AEV7cXuHNh-itPJqnbdktLgCLcBGAsYHQ/s320/small-movie5.jpg"
+          alt=""
+          class="row__poster"
+        />
+        <img
+          src="https://1.bp.blogspot.com/-JJW0yqJFVqk/YUBGX2nHx-I/AAAAAAAAAhw/Zi6xEe9CwFwEySeLeU68Mz9cL7UrabZ0ACLcBGAsYHQ/s320/small-movie6.jpg"
+          alt=""
+          class="row__poster"
+        />
+        <img
+          src="https://1.bp.blogspot.com/-YZKEj4HIfvI/YUBGaa3RFwI/AAAAAAAAAh4/cHwamt8sAw4tzZ1cE1zB8blNdZAmEpxFwCLcBGAsYHQ/s320/small-movie7.jpg"
+          alt=""
+          class="row__poster"
+        />
+        <img
+          src="https://1.bp.blogspot.com/-6sbMwPnKmJ8/YUBGZ4U8P3I/AAAAAAAAAh0/0APNc7nUlrQQZnUVxtGahBZrMSHEqgebgCLcBGAsYHQ/s320/small-movie8.jpg"
+          alt=""
+          class="row__poster"/>
+        </div>
+      </div>
+       <!--<script>
+          const nav = document.getElementById('nav');
+          window.addEventListener('scroll',() => {
+              if(window.scrollY >= 100){
+                  nav.classList.add('nav__black');
+              }else{
+                  nav.classList.remove('nav__black');
+              }
+          });
+      </script>-->
+  </body>
+</html>
